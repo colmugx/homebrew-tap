@@ -1,22 +1,22 @@
 class Cetas < Formula
   desc "Native Cetas terminal AI agent"
   homepage "https://github.com/colmugx/cetas"
-  version "0.11.2"
+  version "0.11.3"
   license "Apache-2.0"
 
   on_macos do
     on_arm do
-      url "https://github.com/colmugx/cetas/releases/download/cetas-v0.11.2/cetas-darwin-arm64.tar.gz"
-      sha256 "e0dd2fb1e5ee4fd81fb6093ffee5046a0224b35d99b492d39d1c62a3926b4995"
+      url "https://github.com/colmugx/cetas/releases/download/cetas-v0.11.3/cetas-darwin-arm64.tar.gz"
+      sha256 "fc1278e509aa39856bdabf8ca6eb65889e1af74c687c10befcc0280a6c7122f9"
 
       resource "acp" do
-        url "https://github.com/colmugx/cetas/releases/download/cetas-v0.11.2/cetas-acp-darwin-arm64.tar.gz"
-        sha256 "da0b85a67752e89e36440a8b8b1c13f226709a5c5419a6041cf5ba5775036daa"
+        url "https://github.com/colmugx/cetas/releases/download/cetas-v0.11.3/cetas-acp-darwin-arm64.tar.gz"
+        sha256 "4452004c6715c8b91a7e2952caef3460ec4d2056efcbec60ccbe52bb5ef5b42e"
       end
 
       resource "run" do
-        url "https://github.com/colmugx/cetas/releases/download/cetas-v0.11.2/cetas-run-darwin-arm64.tar.gz"
-        sha256 "7535418cdf74db0ef9e7384a126ba61e6287a89fce447be0ce806aecc0cf4fac"
+        url "https://github.com/colmugx/cetas/releases/download/cetas-v0.11.3/cetas-run-darwin-arm64.tar.gz"
+        sha256 "19bb4fbf5e8bf676f0c8989df758ac9f46c1b4829049ce195cc369381a5e3781"
       end
 
     end
@@ -24,17 +24,17 @@ class Cetas < Formula
 
   on_linux do
     on_intel do
-      url "https://github.com/colmugx/cetas/releases/download/cetas-v0.11.2/cetas-linux-x64.tar.gz"
-      sha256 "0f8a7099bbfd15af0f6d33c70bce664c2c5cd0a8a987fd20a976e527945e53ff"
+      url "https://github.com/colmugx/cetas/releases/download/cetas-v0.11.3/cetas-linux-x64.tar.gz"
+      sha256 "fdef97f7dcd6d01bbb6ffc57027a4a4af1738ffd686b169bc6aed02015086e90"
 
       resource "acp" do
-        url "https://github.com/colmugx/cetas/releases/download/cetas-v0.11.2/cetas-acp-linux-x64.tar.gz"
-        sha256 "d67d6a52a0079c7232760efa0225f6cd5dada5735b8149fd1e5cb148ba70158d"
+        url "https://github.com/colmugx/cetas/releases/download/cetas-v0.11.3/cetas-acp-linux-x64.tar.gz"
+        sha256 "9fdb829a5adf546a9381fa510091496ff37badfeffec9047d641a642ea859ec4"
       end
 
       resource "run" do
-        url "https://github.com/colmugx/cetas/releases/download/cetas-v0.11.2/cetas-run-linux-x64.tar.gz"
-        sha256 "89ea8857a4c69e8315b283fbcab83c80b9bae24930790b8ebdf52b06e4cf978f"
+        url "https://github.com/colmugx/cetas/releases/download/cetas-v0.11.3/cetas-run-linux-x64.tar.gz"
+        sha256 "9e3f38d0ebcc85efd3db6f555cfc5a114d6c46754e39b8b77fdbfa6a3fc8deb3"
       end
 
     end
